@@ -9,7 +9,7 @@ while [ "$i" -lt "$lines" ]
         echo Done
         exit 1;
     fi
-    python3 urldecode.py "$(head -$i queries)" >> queries.decoded
+    head -$i queries | python3 urldecode.py >> queries.decoded
     echo -ne "${i} / ${lines}\r"
     i=$[$i + 1]
 done
