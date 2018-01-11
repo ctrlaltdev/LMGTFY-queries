@@ -1,4 +1,4 @@
-You can find the page presenting this at (https://ctrlaltdev/LMGTFY-queries/).
+You can find the page presenting this at https://ctrlaltdev/LMGTFY-queries/.
 
 ## Structure
 
