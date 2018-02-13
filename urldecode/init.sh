@@ -12,7 +12,7 @@ read -p "How many parts do you want? " parts
 read -p "Which one do you want to run now? " runpart
 
 partlines=$(expr $lines / $parts)
-startrunpart=$(expr $partlines \* $runpart)
+startrunpart=$(expr $partlines \* $runpart - $partlines)
 
 tail -n +$startrunpart .queries.tmp > .queries.tmp.tmp && mv .queries.tmp.tmp .queries.tmp
 head -$partlines .queries.tmp > .queries.tmp.tmp && mv .queries.tmp.tmp .queries.tmp
