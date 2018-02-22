@@ -32,22 +32,24 @@ The whole polling phase lasted 15018570 hashes / 86400 sec a day / 3 servers pol
 
 ## The Queries
 
-The queries retrieved are urlencoded, and we are currenty decoding them to make then available in plain text.
-The current queries file stack up to 124MB.
+The queries retrieved were urlencoded, so we decoded them to make them available in plain text.
+The current queries file stack up to 107MB.
 
 ## Download
 
-You can download the tar.gz of the queries file : [queries.tar.gz (56MB)](https://github.com/ctrlaltdev/LMGTFY-queries/raw/master/archives/queries.tar.gz)
+You can download the tar.gz of the queries file : [queries.tar.gz (54MB)](https://github.com/ctrlaltdev/LMGTFY-queries/raw/master/archives/queries.tar.gz)
 
 ## What now?
 
-We are urldecoding the queries, to allow future text analysis.
+We urldecoded the queries, to allow future text analysis.
+
+Now, we need to figure out the best way to detect the language of each query.
 
 Feel free to play with the queries, try things, open issues, make pull request, buy us a beer.
 
 ## TO DO
 
-- [ ] urldecode the queries (in progress)
+- [x] urldecode the queries
 - [ ] split file per languages
 - [ ] perform text analysis of some sort
 - [ ] I don't know yet
@@ -56,9 +58,9 @@ Feel free to play with the queries, try things, open issues, make pull request, 
 ## Structure
 
 - The polling scripts are in fetch/
-- The WIP urldecoding scripts are in urldecode/
+- The urldecoding scripts are in urldecode/
 - The tar.gz are in archives/
-- And the raw queries files are in queries/
+- And the queries files are in src/
 
 ## Contributing
 

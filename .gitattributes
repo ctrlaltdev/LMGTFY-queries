@@ -1,2 +1,5 @@
+archives/ filter=lfs diff=lfs merge=lfs -text
+src/lang/ filter=lfs diff=lfs merge=lfs -text
+src/queries filter=lfs diff=lfs merge=lfs -text
 archives/queries.tar.gz filter=lfs diff=lfs merge=lfs -text
-queries/queries filter=lfs diff=lfs merge=lfs -text
+archives/queries.urlencoded.tar.gz filter=lfs diff=lfs merge=lfs -text
