@@ -1,1 +1,8 @@
-theme: jekyll-theme-minimal
+remote_theme: ctrlaltdev/ctrlaltdev-theme
+theme_settings:
+  title: "LMGTFY Queries"
+  description: "Let Me Google That For You search queries (3M+ of them)"
+  
+sass:
+  sass_dir: _sass
+style: :compressed
