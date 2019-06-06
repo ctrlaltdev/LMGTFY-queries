@@ -13,7 +13,7 @@ The idea popped up in ##security on Freenode in GH0S1's mind and mine (ctrlaltde
 #### More about us
 
 - GH0S1: [https://gh0s1.com/](https://gh0s1.com/)
-- \void: [https://ctrlaltdev.xyz/](https://ctrlaltdev.xyz/)
+- \void: [https://ctrlalt.dev/](https://ctrlalt.dev/)
 
 ### The Hash
 
