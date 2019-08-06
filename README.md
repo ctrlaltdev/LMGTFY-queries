@@ -1,4 +1,4 @@
-[![licence](https://img.shields.io/github/license/ctrlaltdev/LMGTFY-queries.svg?style=for-the-badge)](https://github.com/ctrlaltdev/LMGTFY-queries/blob/master/LICENCE.md)
+[![license](https://img.shields.io/github/license/ctrlaltdev/LMGTFY-queries.svg?style=for-the-badge)](https://github.com/ctrlaltdev/LMGTFY-queries/blob/master/LICENSE)
 ![Python](https://img.shields.io/badge/_-Python-4B8BBE.svg?style=for-the-badge)
 ![Bash](https://img.shields.io/badge/_-SH-4EAA25.svg?style=for-the-badge)
 
@@ -17,7 +17,7 @@ The idea popped up in ##security on Freenode in GH0S1's mind and mine (ctrlaltde
 
 ### The Hash
 
-So, the sequencial part of the URL is alphanumeric and range from 0 to 9 then A to Z then a to z - which sums up to 62 possibilities. For now, the hash has grown only to 4 characters (which allows 62^4 different hashes + the 62^3 different hashes for the 3 characters hashes, etc.).
+So, the sequencial part of the URL is alphanumeric and ranges from 0 to 9 then A to Z then a to z - which sums up to 62 possibilities. At the time, the hash had grown only to 4 characters (which allows 62^4 different hashes + the 62^3 different hashes for the 3 characters hashes, etc.).
 
 This stack up to 62 + 62^2 + 62^3 + 62^4 = 15 018 570 hashes.
 
@@ -35,7 +35,7 @@ The whole polling phase lasted 15018570 hashes / 86400 sec a day / 3 servers pol
 ### The Queries
 
 The queries retrieved were urlencoded, so we decoded them to make them available in plain text.
-The current queries file stack up to 107MB.
+The current queries file stacks up to 107MB.
 
 ### Download
 
@@ -67,3 +67,4 @@ Feel free to play with the queries, try things, open issues, make pull request, 
 ### Contributing
 
 If you plan on cloning or forking this repo, use git LFS [(more info)](https://git-lfs.github.com/).
+
